@@ -1,17 +1,17 @@
 .header {
-  padding: 92px 50px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   border: 1px solid pink;
+  padding: 92px 50px;
   font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 18px;
 }
 
 a {
-  text-decoration: none;
   border-bottom: 1px solid #000;
+  text-decoration: none;
 }
 
 .header__menu {
@@ -39,13 +39,13 @@ a {
 
 .header__logo {
   display: block;
-  max-height: 105px;
-  max-width: 136px;
-  border-bottom: none;
   justify-self: center;
+  max-width: 136px;
+  max-height: 105px;
+  border-bottom: none;
 }
 
 .header__address {
-  line-height: 1.35;
   place-self: center end;
+  line-height: 1.35;
 }
