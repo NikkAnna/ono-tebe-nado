@@ -1,17 +1,16 @@
+a {
+  border-bottom: 1px solid #000;
+  text-decoration: none;
+}
+
 .header {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 136px 1fr;
   grid-template-rows: 1fr;
-  border: 1px solid pink;
   padding: 92px 50px;
   font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 18px;
-}
-
-a {
-  border-bottom: 1px solid #000;
-  text-decoration: none;
 }
 
 .header__menu {
@@ -28,18 +27,12 @@ a {
   list-style: none;
 }
 
-/* .header__link {
-  text-decoration: none;
-  border-bottom: 1px solid black;
-} */
-
 .header__link_active {
   border-bottom: none;
 }
 
 .header__logo {
   display: block;
-  justify-self: center;
   max-width: 136px;
   max-height: 105px;
   border-bottom: none;
