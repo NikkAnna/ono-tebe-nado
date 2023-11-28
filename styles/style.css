@@ -6,7 +6,7 @@ a {
 .header {
   display: grid;
   grid-template-columns: 1fr 136px 1fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: 109px;
   padding: 92px 50px;
   font-family: Raleway, sans-serif;
   font-weight: 400;
@@ -19,7 +19,7 @@ a {
 
 .header__links-list {
   display: flex;
-  gap: 32px;
+  gap: 33px;
   list-style: circle;
 }
 
