@@ -42,3 +42,94 @@ a {
   place-self: center end;
   line-height: 1.35;
 }
+
+.cover {
+  position: relative;
+  z-index: 0;
+  padding: 165px 50px 50px;
+  color: #FFF;
+  background: url('../images/cover.jpg') no-repeat center / cover;
+}
+
+.cover .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  background-color: #000;
+}
+
+.cover__title {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-weight: 700;
+  font-size: 100px;
+  text-transform: uppercase;
+}
+
+.aligned-text {
+  display: block;
+  line-height: 1.15;
+  letter-spacing: 3px;
+
+}
+
+.letter-spacing-extended {
+  letter-spacing: 60px;
+}
+
+.aligned-text_center {
+  display: block;
+  align-self: center;
+  line-height: 1;
+  letter-spacing: 4px;
+}
+
+.aligned-text_right {
+  display: block;
+  align-self: end;
+  line-height: 1;
+  letter-spacing: 4px;
+}
+
+.letter-spacing-last-word {
+  letter-spacing: 18px;
+}
+
+.no-letter-spacing {
+  letter-spacing: normal;
+}
+
+.cover__description {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: end;
+  align-items: baseline;
+  gap: 78px;
+  margin-top: 135px;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.cover__description-text {
+  line-height: 1.27;
+  word-spacing: 18px;
+}
+
+.bet-button {
+  border: #fff 1px solid;
+  padding: 12px 32px;
+  color: #FFF;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  text-transform: uppercase;
+  background: transparent;
+}
