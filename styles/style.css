@@ -178,7 +178,7 @@ a {
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  padding: 50px 40px;
+  padding: 50px 39px 50px 40px;
   color: #FFF;
 }
 
