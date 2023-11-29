@@ -8,7 +8,7 @@ a {
   grid-template-columns: 1fr 136px 1fr;
   grid-template-rows: 109px;
   padding: 92px 50px;
-  font-family: Raleway, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-size: 18px;
 }
@@ -19,7 +19,7 @@ a {
 
 .header__links-list {
   display: flex;
-  gap: 33px;
+  gap: 32px;
   list-style: circle;
 }
 
@@ -48,10 +48,11 @@ a {
   z-index: 0;
   padding: 165px 50px 50px;
   color: #FFF;
+  font-family: 'Raleway', sans-serif;
   background: url('../images/cover.jpg') no-repeat center / cover;
 }
 
-.cover .overlay {
+.overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -127,9 +128,91 @@ a {
   border: #fff 1px solid;
   padding: 12px 32px;
   color: #FFF;
-  font-family: Raleway, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-size: 22px;
   text-transform: uppercase;
   background: transparent;
+}
+
+.lots {
+  padding: 180px 50px 182px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.lots__heading {
+  padding: 0 0 0 40px;
+  color: #000;
+  font-family: serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.lots__card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 25px;
+  margin-top: 27px;
+  list-style: none;
+  
+}
+
+.lots__card-list-item {
+  flex: 430px 1 0;
+  width: 430px;
+  min-height: 450px;
+}
+
+.card-link {
+  display: block;
+  height: 100%;
+  border-bottom: none;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 50px 40px;
+  color: #FFF;
+}
+
+.card_type_film {
+  background: url('../images/card-lot-01.jpg') no-repeat center / cover;
+}
+
+.card_type_book {
+  background: url('../images/card-lot-02.jpg') no-repeat center / cover;
+}
+
+.card_type_picture {
+  background: url('../images/card-lot-03.jpg') no-repeat center / cover;
+}
+
+.card__title {
+  z-index: 2;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.2;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.card__text {
+  z-index: 2;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.lots__look-more-link {
+  display: inline-block;
+  margin: 30px 0 0 40px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
 }
