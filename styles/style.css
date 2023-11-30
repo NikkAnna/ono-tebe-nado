@@ -50,8 +50,8 @@ a {
   position: relative;
   z-index: 0;
   padding: 165px 50px 50px;
-  color: #FFF;
-  background: url('../images/cover.jpg') no-repeat center / cover;
+  color: #fff;
+  background: url("../images/cover.jpg") no-repeat center / cover;
 }
 
 .overlay {
@@ -80,7 +80,6 @@ a {
   display: block;
   line-height: 1.15;
   letter-spacing: 3px;
-
 }
 
 .letter-spacing-extended {
@@ -129,8 +128,8 @@ a {
 .bet-button {
   border: #fff 1px solid;
   padding: 12px 32px;
-  color: #FFF;
-  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 22px;
   text-transform: uppercase;
@@ -143,7 +142,7 @@ a {
 
 h2 {
   color: #000;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: normal;
@@ -151,7 +150,7 @@ h2 {
 }
 
 .lots h2 {
-   padding: 0 0 0 40px;
+  padding: 0 0 0 40px;
 }
 
 .lots__card-list {
@@ -182,19 +181,19 @@ h2 {
   height: 100%;
   padding: 50px 39px 50px 40px;
   /* Padding 39px для прохождения автотеста в github actions */
-  color: #FFF;
+  color: #fff;
 }
 
 .card_type_film {
-  background: url('../images/card-lot-01.jpg') no-repeat center / cover;
+  background: url("../images/card-lot-01.jpg") no-repeat center / cover;
 }
 
 .card_type_book {
-  background: url('../images/card-lot-02.jpg') no-repeat center / cover;
+  background: url("../images/card-lot-02.jpg") no-repeat center / cover;
 }
 
 .card_type_picture {
-  background: url('../images/card-lot-03.jpg') no-repeat center / cover;
+  background: url("../images/card-lot-03.jpg") no-repeat center / cover;
 }
 
 .card__title {
